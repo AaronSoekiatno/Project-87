@@ -8,7 +8,10 @@ export default class customSideBarMenu extends React.Component {
 constructor(){
   super();
   this.state = {
-
+    userId: firebase.auth().currentUser.email,
+    image: "#",
+    name: "",
+    docId: "",
   }
 }
 
